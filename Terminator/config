@@ -1,0 +1,90 @@
+[global_config]
+  focus = mouse
+  title_font = DejaVu Sans 11
+  title_inactive_bg_color = "#96491b"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[Python]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 64e0afc5-f427-42ab-be45-bc0f8b41530c
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:22
+      size = 679, 721
+      title = Python
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 365
+      ratio = 0.541543026706
+      title = Vim
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 506
+      ratio = 0.706703910615
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 358
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      command = vim
+      directory = /home/shardan/Public/Documents/Python/Hardway
+      order = 0
+      parent = child2
+      profile = Python
+      type = Terminal
+      uuid = 64e0afc5-f427-42ab-be45-bc0f8b41530c
+    [[[terminal4]]]
+      command = python3
+      directory = /home/shardan/Public/Documents/Python/Hardway
+      order = 1
+      parent = child2
+      profile = Python
+      type = Terminal
+      uuid = c2de4b3a-48b8-4766-ab09-ffa950cba8ec
+    [[[terminal6]]]
+      command = zathura ~/Public/Documents/Python/HardWay/learn-python-3-hard-way.pdf
+      directory = /home/shardan/Public/Documents/Python/Hardway
+      order = 0
+      parent = child5
+      profile = Python
+      type = Terminal
+      uuid = 8f5652ca-46a4-452a-be55-900399e95525
+    [[[terminal7]]]
+      command = ranger
+      directory = /home/shardan/Public/Documents/Python/Hardway
+      order = 1
+      parent = child5
+      profile = Python
+      title = Ranger
+      type = Terminal
+      uuid = b5f8f715-6e8e-48a1-9bd7-e4e263d31e13
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#fff68f"
+    font = DejaVu Sans Mono 11
+    use_system_font = False
+  [[Python]]
+    background_color = "#200d00"
+    cursor_color = "#fff68f"
+    font = DejaVu Sans Mono 11
+    foreground_color = "#fffafa"
+    use_system_font = False
